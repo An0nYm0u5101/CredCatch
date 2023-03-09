@@ -4,9 +4,11 @@ GEM
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
     ffi (1.9.25)
-    mini_portile2 (2.3.0)
-    nokogiri (1.8.5)
-      mini_portile2 (~> 2.3.0)
+    mini_portile2 (2.8.1)
+    nokogiri (1.14.2)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    racc (1.6.2)
     ruby-progressbar (1.10.0)
     rubyzip (1.2.2)
     selenium-webdriver (3.141.0)
@@ -17,9 +19,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nokogiri!
+  nokogiri (>= 1.10.5)!
   ruby-progressbar!
   selenium-webdriver!
 
 BUNDLED WITH
-   1.16.2
+   1.17.3
